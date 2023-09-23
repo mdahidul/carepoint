@@ -1,0 +1,448 @@
+*{
+    padding: 0px ;
+    margin: 0px ;
+}
+
+body{
+    font-size: 14px ;
+    line-height: 1.7em ;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+a, a:hover{
+    text-decoration: none ;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    width: 100% ;
+}
+.header .top-menu{
+    width: 100% ;
+    padding: 20px 0px  ;
+    border-bottom: 1px solid #eee ;
+}
+
+.header .top-menu p{
+    font-size: 14px ;
+    color: #474747;
+}
+.header .top-menu p span{
+    color: #474747;
+    font-weight: 600 ;
+}
+.header .navbar-wrapper {
+    width: 100% ;
+    margin-top:0px;
+    position: relative;
+    z-index: 15;
+  
+  }
+ .header .isStuck{
+    left:0px;
+    width:100%;
+    background-color: #37c3a8 ;
+}
+
+.header .navbar-nav .nav-link.active{
+    color: #1a9bdc;
+}
+.header .nav-link{
+    padding: 30px 0px ;
+    font-size: 18px ;
+    color: #474747;
+    margin: 0px 20px 0px 0px ;
+    font-weight: 600 ;
+}
+.header .nav-link:hover{
+    color: #1a9bdc;
+    transition: 1s ;
+}
+
+
+.header .social-icon i{
+    font-weight: 500 ;
+    font-size: 20px ;
+    margin: 0px 20px 0px 0px ;
+}
+.header .social-icon i:hover{
+    color: #1a9bdc;
+    transition: 1s ;
+}   
+ 
+
+.banner{
+    width: 100%;
+    padding: 180px 0px ;
+    background: url(../images/main.banner.png) center top no-repeat ;
+    background-size: cover ;
+}
+.banner h1{
+    font-size: 38px ;
+    color: #474747;
+    font-weight: 600 ;
+}
+.banner p{
+    font-size: 16px ;
+    line-height: 1.7em ;
+    color: #474747;
+    font-weight: 400 ;
+    margin: 25px 0px  ;
+}
+.banner .action-buttons{
+    width: 100% ;
+}
+.banner .btn-primary{
+    background: #1a9bdc ;
+    font-size: 14px ;
+    text-transform: uppercase ;
+    padding: 5px 20px ;
+    color: #fff;
+    border: 1px solid #1a9bdc ;
+    border-radius: 15px ;
+    font-weight: 400 ;
+}
+.banner .btn-primary:hover{
+    background: transparent;
+    color: #1a9bdc;
+    border: 1px solid #1a9bdc ;
+    transition: 1s ;
+}   
+.banner .btn-primary:focus{
+    background: transparent;
+    color: #1a9bdc;
+    border: 1px solid #1a9bdc ;
+    transition: 1s ;
+}
+.about{
+    width: 100% ;
+    padding: 60px 0px 40px  ;
+    background: #37c3a8;
+}
+.about .icon-box{
+    width: 70px  ;
+    height: 70px ;
+    line-height: 70px ;
+    border: 1px solid #fff ;
+    background: #ffff ;
+    border-radius: 100% ;
+    margin: 0px auto ;
+}
+.icon-box img{
+    width: 30px;
+    display: block;
+    height: 30px;
+    margin: 20px auto;
+}
+.about h4{
+    text-align:center ;
+    color: #fff ;
+    margin-top: 20px ;
+    font-weight: 600 ;
+}
+.about p{
+    text-align: center ;
+    color: #fff;
+    font-size: 14px ;
+}
+.chose-us{
+    width: 100% ;
+    padding:40px 0px 70px 0px ; 
+}
+.chose-us .title{
+    width: 100% ;
+    text-align: center ;
+}
+.title h1{
+    font-size: 38px ;
+    color: #474747;
+    font-weight: 700 ;
+}
+.title p{
+    font-size: 16px ;
+    line-height: 1.7em ;
+    color: #474747;
+    font-weight: 400 ;
+    margin-bottom: 50px ;
+}
+.chose-us .img-box{
+    width: 70px  ;
+    height: 70px ;
+    line-height: 70px ;
+    border: 1px solid #fff ;
+    background: #1a9bdc ;
+    border-radius: 100% ;
+}
+.img-box img{
+    width: 30px;
+    display: block;
+    height: 30px;
+    margin: 20px auto;
+}
+.feature{
+    width:100% ;
+    padding:80px 0px ;
+    background: url(../images/feature.png) center top no-repeat ;
+    background-size: cover ;
+    text-align: center ;
+}
+
+.feature h1{
+    color: #fff;
+    margin-top: 20px ;
+}
+.feature p{
+    color: #fff;
+    margin-top: 15px ;
+} 
+.work{
+    width: 100% ;
+    padding: 80px 0px ;
+}
+.work img{
+    width: 100% ;
+}
+.work h1{
+    font-size: 38px ;
+    color: #474747;
+    font-weight: 700 ;
+}
+.work p{
+    font-size: 16px ;
+    line-height: 1.7em ;
+    color: #474747;
+    font-weight: 400 ;
+}
+.work .img-style{
+    width: 100% ;
+}
+.work .btn-primary{
+    background: #1a9bdc ;
+    font-size: 14px ;
+    text-transform: uppercase ;
+    padding: 5px 25px ;
+    color: #fff;
+    border: 1px solid #1a9bdc ;
+    border-radius: 15px ;
+    font-weight: 400 ;
+    margin-bottom: 20px ;
+}
+.work .btn-primary:hover{
+    background: transparent;
+    color: #1a9bdc;
+    border: 1px solid #1a9bdc ;
+    transition: 1s ;
+}
+.work .btn-primary:focus{
+    background: transparent;
+    color: #1a9bdc;
+    border: 1px solid #1a9bdc ;
+    transition: 1s ;
+}
+.work h4{
+    color: #1a9bdc;
+    font-weight: 600 ;
+}
+.work p{
+    margin-top: 15px ;
+}
+.gallary{
+    width: 100% ;
+    padding: 50px 0px 90px 0px;
+    background: url(../images/Gallery.png) center top no-repeat ;
+    background-size: cover ;
+   
+}
+.gallary{
+    width: 100% ;
+}
+.gallary h1{
+    text-align: center ;
+    font-size: 38px ;
+    color: #fff;
+    font-weight: 700 ;
+}
+.gallary p{
+    text-align: center ;
+    font-size: 16px ;
+    line-height: 1.7em ;
+    color: #fff;
+    margin: 30px 0px ;
+    
+}
+.gallary .inner-gallary{
+    width: 100% ;
+    margin-top: 20px ;
+}
+.team{
+    width: 100% ;
+    padding: 80px 0px ;
+   
+}
+.team h1{
+    text-align: center ;
+    font-size: 38px ;
+    color: #474747;
+    font-weight: 700 ;
+}
+.team P{
+    text-align: center ;
+    font-size: 16px ;
+    line-height: 1.7em ;
+    color: #474747;
+    margin: 20px 0px 60px 0px;
+}
+.team h4{
+    font-size: 20px ;
+    color: #474747;
+    text-align: center ;
+    line-height: 1.7em ;
+}
+.team h5{
+    text-align: center ;
+    font-size: 14px ;
+    color: #474747;
+}
+.team .social-icon{
+    text-align: center ;
+   
+}
+.team .social-icon .fa{
+   color: #1a9bdc;
+   font-weight: 500 ;
+   margin: 0px 10px 0px ;
+}
+.consalation{
+    width: 100% ;
+    padding: 40px 0px 20px 0px ;
+    background: #eee ;
+}
+.consalation p{
+    font-size: 25px  ;
+    color: #474747;
+    font-weight: 700 ;
+}
+.consalation .btn-primary{
+    background: #1a9bdc ;
+    font-size: 14px ;
+    text-transform: uppercase ;
+    padding: 5px 25px ;
+    color: #fff;
+    border: 1px solid #1a9bdc ;
+    border-radius: 15px ;
+    font-weight: 400 ;
+}
+.consalation .btn-primary:hover{
+    background: transparent;
+    color: #1a9bdc;
+    border: 1px solid #1a9bdc ;
+    transition: 1s ;
+}
+.consalation .btn-primary:hover{
+    background: transparent;
+    color: #1a9bdc;
+    border: 1px solid #1a9bdc ;
+    transition: 1s ;
+}
+.consalation .btn-primary:focus{
+    background: transparent;
+    color: #1a9bdc;
+    border: 1px solid #1a9bdc ;
+    transition: 1s ;
+}
+.footer{
+    width: 100% ;
+    background:#000 ;
+    padding: 80px 0px ;
+}
+.footer .active{
+    list-style: none ;
+    color: #fff;
+    font-size: 22px ;
+    font-weight: 600 ;
+    text-transform: capitalize ;
+}
+.footer ul{
+    padding: 0px ;
+}
+.footer ul li{
+    list-style: none ;
+    color: #fff ;
+    font-weight: 400 ;
+}
+
+.footer .fa{
+    font-size: 16px ;
+    color: #fff;
+    margin: 40px 20px 0px 0px ;
+}
+.footer .fa:hover{
+    color: #1a9bdc;
+}
+
+.footer .form-control{
+    background: transparent ;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 2px solid #ffff;
+    border-radius: 0px;
+    padding: 0px 0px 20px 0px;
+   
+}
+.footer input.form-control{
+    margin: 0px 0px 20px 0px ;
+    box-shadow: none ;
+    background: transparent ;
+    border-bottom: 2px solid #fff ;
+    color: #fff;
+}
+.footer .form-control::placeholder{
+    background: transparent ;
+    color: #fff;
+    font-weight: 600 ;
+   
+}
+ .footer textarea.form-control{
+    margin-top: 20px ;
+    background: transparent ;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 2px solid #ffff;
+    border-radius: 0px;
+    box-shadow: none ;
+    color: #fff;
+ }
+ .footer .btn-primary{
+    background: #1a9bdc ;
+    font-size: 14px ;
+    text-transform: uppercase ;
+    color: #fff;
+    border: 1px solid #1a9bdc ;
+    font-weight: 400 ;
+    padding: 5px 30px ;
+    margin-top: 30px ;
+    border-radius:0px ;
+ }
+ .footer .btn-primary:hover{
+    background: transparent;
+    color: #1a9bdc;
+    border: 1px solid #1a9bdc ;
+    transition: 1s ;
+}
+.footer .btn-primary:focus{
+    background: transparent;
+    color: #1a9bdc;
+    border: 1px solid #1a9bdc ;
+    transition: 1s ;
+}
+
+
